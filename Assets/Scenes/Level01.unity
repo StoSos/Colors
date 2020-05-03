@@ -133,10 +133,35 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 855374011}
+    - target: {fileID: 6907868316938691089, guid: 0314f5c634c4e124da9277d8085abeb7,
+        type: 3}
+      propertyPath: graphics
+      value: 
+      objectReference: {fileID: 117265549}
     - target: {fileID: 6907868316938691096, guid: 0314f5c634c4e124da9277d8085abeb7,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907868316938691098, guid: 0314f5c634c4e124da9277d8085abeb7,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907868316938691098, guid: 0314f5c634c4e124da9277d8085abeb7,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907868316938691098, guid: 0314f5c634c4e124da9277d8085abeb7,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907868316938691098, guid: 0314f5c634c4e124da9277d8085abeb7,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6907868316938691101, guid: 0314f5c634c4e124da9277d8085abeb7,
         type: 3}
@@ -176,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 6907868316938691101, guid: 0314f5c634c4e124da9277d8085abeb7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6907868316938691101, guid: 0314f5c634c4e124da9277d8085abeb7,
         type: 3}
@@ -195,6 +220,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0314f5c634c4e124da9277d8085abeb7, type: 3}
+--- !u!212 &117265549 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6907868316938691098, guid: 0314f5c634c4e124da9277d8085abeb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 117265548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &231037897
 GameObject:
   m_ObjectHideFlags: 0
@@ -43107,7 +43138,7 @@ RectTransform:
   - {fileID: 855374009}
   - {fileID: 381571179}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -43877,7 +43908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1301146055
 GameObject:

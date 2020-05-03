@@ -178,6 +178,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  invincibilityTimeAfterHit: 3
+  invincibilityFlashDelay: 0.2
+  isInvincible: 0
+  graphics: {fileID: 6907868316938691098}
   healthBar: {fileID: 0}
 --- !u!1 &6907868318053369784
 GameObject:
