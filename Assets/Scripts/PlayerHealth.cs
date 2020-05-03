@@ -5,7 +5,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-
+   
     public float invincibilityTimeAfterHit = 3f;
     public float invincibilityFlashDelay = 0.2f;
     public bool isInvincible = false;
@@ -26,6 +26,8 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(20);
         }
     }
+
+  
 
     public void TakeDamage(int damage)
     {
