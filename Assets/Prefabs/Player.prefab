@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
-  jumpForce: 100
+  jumpForce: 75
   isJumping: 0
   isGrounded: 0
   groundCheckLeft: {fileID: 6907868318053369787}
